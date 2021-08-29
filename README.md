@@ -1,6 +1,4 @@
 # youtube-dlp-bash
-Bash script which pastes the clipboard onto youtube-dlp and downloads the video.
-
 **No copying URL! No pressing paste or enter!!**
 
 You literally select your text, and activate this script by a hotkey shortcut (e.g F9) and **you instantly download the video!**
