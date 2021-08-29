@@ -29,3 +29,5 @@ Middle mouse button works for pasting, but just use ctrl+Y for pasting onto dmen
 But if you don't want to paste and enter, not even copy, the optimal is obviously the very first script.
 
 **Obviously map both scripts to hotkeys, so you can download videos effortlessly.**
+
+Ah and ofc, it needs youtube-dl. [youtube-dlp](https://github.com/yt-dlp/yt-dlp) in this case (it is objectively superior)
