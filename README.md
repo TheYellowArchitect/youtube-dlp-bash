@@ -16,6 +16,7 @@ Now, you may want to write the URL yourself, or paste it manually, or press ente
 ```
 #!/bin/sh
 
+# Give your input to dmenu (bash could work, but ? character triggers zsh globs and other annoying terminal bugs)
 targeturl="$(dmenu -p Download </dev/null)"
 yt-dlp -P /home/username/videos "$targeturl"
 ```
