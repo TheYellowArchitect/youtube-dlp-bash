@@ -13,10 +13,12 @@ xclip -o | xargs -r yt-dlp -P "/home/username/videos"
 
 Now, you may want to write the URL yourself, or paste it manually, or press enter to confirm the url yourself before downloading.
 
-```#!/bin/sh
+```
+#!/bin/sh
 
 targeturl="$(dmenu -p Download </dev/null)"
-yt-dlp -P /home/username/videos "$targeturl"```
+yt-dlp -P /home/username/videos "$targeturl"
+```
 
 The above works for this, pretty much opens dmenu and whatever you type is passed onto yt-dlp.
 Middle mouse button works for pasting, but just use ctrl+Y for pasting onto dmenu, for efficiency (imagine using mouse)
