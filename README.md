@@ -7,7 +7,8 @@ No pressing enter or confirmation or whatever bs. Literally 1 button download, c
 ```
 #!/bin/sh
 
-#Replace /username/ with your username under home directory, or replace the entire path with wherever you want these videos to be saved.
+# Replace /username/ with your username under home directory
+# or replace the entire path with wherever you want these videos to be saved.
 xclip -o | xargs -r yt-dlp -P "/home/username/videos"
 ```
 
@@ -18,6 +19,8 @@ Now, you may want to write the URL yourself, or paste it manually, or press ente
 
 # Give your input to dmenu (bash could work, but ? character triggers zsh globs and other annoying terminal bugs)
 targeturl="$(dmenu -p Download </dev/null)"
+
+# Pass targeturl to youtube downloader (works for any kind of video)
 yt-dlp -P /home/username/videos "$targeturl"
 ```
 
