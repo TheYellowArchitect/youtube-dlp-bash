@@ -25,7 +25,7 @@ yt-dlp -P /home/username/videos "$targeturl"
 ```
 
 The above works for this, pretty much opens dmenu and whatever you type is passed onto yt-dlp.
-Middle mouse button works for pasting, but just use ctrl+Y for pasting onto dmenu, for efficiency (imagine using mouse)
+Middle mouse button works for pasting, but just use ctrl+Y for pasting onto dmenu, for efficiency (imagine using mouse)  
 But if you don't want to paste and enter, not even copy, the optimal is obviously the very first script.
 
-Obviously map both scripts to hotkeys, so you can download videos effortlessly.
+**Obviously map both scripts to hotkeys, so you can download videos effortlessly.**
