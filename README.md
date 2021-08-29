@@ -1,5 +1,5 @@
 # youtube-dlp-bash
-**No copying URL! No pressing paste or enter!!*
+**No copying URL! No pressing paste or enter!!**
 
 You select your text, and activate this script by a hotkey shortcut (e.g F9) and **you instantly download the video!**  
 No pressing enter or confirmation or whatever bs. Literally 1 button download, couldn't be smoother. No "copy" -> "select input field" -> "paste" -> "enter" on whatever video downloader
